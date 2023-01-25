@@ -1,0 +1,38 @@
+Goal : Automating a Books Donation Camp
+
+Bookworm Club --> organises book donation camp every year
+
+Donation Camp --> collects books and notebooks
+
+---------------------------------------------------------
+
+Step 1 : Assessing condition as 'Fit', 'Needs mending','Unfit'
+
+Step 2 : Separating Unfit ones and making paper bags & envelopes out of it
+
+Step 3 : Others are sold at half the price
+
+--------------------------------------------------------------------------
+
+How to code?
+
+1. Create Collections.csv with column headings as:
+    'S.no.','Item category','Item name','Item type','Price','Quantity','Condition'
+    Item category --> Book/Notebook
+    Item type --> Academic/Non-academic {For Books}
+    Item type --> Single line/Four line/Five line {For Notebooks}
+    Condition --> Fit/Needs mending/Unfit
+
+2. Create Refurbished.csv with column headings as:
+    'ItemID','Item name','Item Category','Quantity'
+    Item Category --> Paper bag or Envelope/Notebook/Book {Class to be entered in case of books}
+    ItemID --> Prefixed with 'B' or 'N' respectively for books and notebooks
+
+3. Create Order.csv with columns headings as:
+    'Item Category','Item name','Quantity','Total'
+    # In case of an order, the Refurbished.csv shall update the quantity
+
+4. Plot data to show:
+    Sales
+    Items refurbished
+    Items collected

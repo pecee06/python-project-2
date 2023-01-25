@@ -1,0 +1,7 @@
+S.no.,Item category,Item name,Item type,Price {per unit},Quantity,Condition
+1,Book,Tkinter Tutorial TT1,Academic,340.0,2,Fit
+2,Book,Harry Potter HP1,Non-Academic,500.0,3,Needs mending
+3,Notebook,Classmate CM1,Four Line,135.0,7,Unfit
+4,Notebook,Navneet N1,Single Line,120.0,2,Needs mending
+5,Book,Class 12 Physics NCERT,Academic,175.0,0,Fit
+6,Notebook,Classmind CM1,Five Line,60.0,1,Fit
